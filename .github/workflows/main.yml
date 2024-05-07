@@ -29,7 +29,10 @@ jobs:
 
       - name: Use Node.js
         uses: actions/setup-node@v4
-
+      - name: List files
+        run: ls -la
+      - name: Print working directory
+        run: pwd
       - run: npm install 
       - run: gulp build
 
