@@ -3,4 +3,7 @@
   "lockfileVersion": 2,
   "requires": true,
   "packages": {}
+  "devDependencies": {
+  "gulp": "^4.0.2"
+}
 }
