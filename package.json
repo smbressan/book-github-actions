@@ -1,6 +1,12 @@
 {
   "name": "book-github-actions",
-  "lockfileVersion": 2,
-  "requires": true,
-  "packages": {}
+  "version": "1.0.0",
+  "description": "A GitHub Actions example for a Gulp-based project",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
