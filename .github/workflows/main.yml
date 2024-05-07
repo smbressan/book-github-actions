@@ -34,8 +34,6 @@ jobs:
       - name: Print working directory
         run: pwd
       - run: npm install 
-      - name: Install Gulp CLI
-        run: npm install --global gulp-cli
       - run: gulp build
 
       - uses: actions/upload-artifact@v3
